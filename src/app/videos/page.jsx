@@ -334,7 +334,7 @@ const Videos = () => {
                         shadow="none"
                         className="relative w-full h-64   bg-card text-cardText"
                       >
-                        <CardHeader className=" flex-1 overflow-hidden pt-5">
+                        <CardHeader className=" flex-1 pt-5">
                           <p>{video.title}</p>
                         </CardHeader>
                         <CardBody className="overflow-hidden">
