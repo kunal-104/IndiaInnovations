@@ -711,7 +711,7 @@ const Home = () => {
       <Sidebar Links={Links} className="flex-none w-full md:w-auto" />
 
       <div className="flex-1 flex flex-col overflow-hidden sm:ml-8">
-        {/* <Header /> */}
+        <Header />
         <div className="flex-1 overflow-x-hidden overflow-y-auto p-4 sm:ml-20">
 
 
