@@ -23,7 +23,37 @@ import {
 } from "@nextui-org/react";
 import React from "react";
 import { FaFlask } from "react-icons/fa6";
-import { FaShieldAlt, FaScroll, FaFortAwesome, FaPaintBrush, FaRocket, FaCannon, FaShip, FaBalanceScale, FaBomb, FaLeaf, FaMonument, FaBookOpen, FaBroadcastTower,FaTrain,FaGlobeAsia,FaPlane,FaFlag,FaComputer,FaSatellite,FaRadiation,FaSatelliteDish,FaUserAstronaut,FaChartLine,FaMoon,FaIdCard,FaNetworkWired,FaMobileAlt,FaSyringe,FaSignal,FaBrain } from "react-icons/fa";
+import { FaShieldAlt } from "react-icons/fa";
+import { FaScroll } from "react-icons/fa";
+import { FaFortAwesome } from "react-icons/fa";
+import { FaPaintBrush } from "react-icons/fa";
+import { FaRocket } from "react-icons/fa";
+import { FaCannon } from "react-icons/fa";
+import { FaShip } from "react-icons/fa";
+import { FaBalanceScale } from "react-icons/fa";
+import { FaBomb } from "react-icons/fa";
+import { FaLeaf } from "react-icons/fa";
+import { FaMonument } from "react-icons/fa";
+import { FaBookOpen } from "react-icons/fa";
+import { FaBroadcastTower } from "react-icons/fa";
+import { FaTrain } from "react-icons/fa";
+import { FaGlobeAsia } from "react-icons/fa";
+import { FaPlane } from "react-icons/fa";
+import { FaFlag } from "react-icons/fa";
+import { FaComputer } from "react-icons/fa";  // ⚠️ Check if this exists; use FaDesktop if needed
+import { FaSatellite } from "react-icons/fa";
+import { FaRadiation } from "react-icons/fa";
+import { FaSatelliteDish } from "react-icons/fa";
+import { FaUserAstronaut } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa";
+import { FaIdCard } from "react-icons/fa";
+import { FaNetworkWired } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
+import { FaSyringe } from "react-icons/fa";
+import { FaSignal } from "react-icons/fa";
+import { FaBrain } from "react-icons/fa";
+
 
 import { FaGlobe } from "react-icons/fa";
 import { FaMicrochip } from "react-icons/fa";
