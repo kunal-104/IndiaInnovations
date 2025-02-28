@@ -183,7 +183,8 @@ const blogsLink = Links.find(link => link.name === 'Innovations');
                             className="relative w-full h-72 flex flex-col bg-card text-icon"
                           >
                             <CardHeader>
-                              Title: <b>{blog.title}</b>
+{/*                               Title: */}
+                              <b>{blog.title}</b>
                             </CardHeader>
                             <CardBody className="flex-1 overflow-y-auto">
                               <div className="p-4 mb-6 bg-neutral-200 rounded-lg text-bodybg">
@@ -250,7 +251,8 @@ const blogsLink = Links.find(link => link.name === 'Innovations');
           
                 <Card shadow="none" className="relative w-full h-72 flex flex-col bg-card text-cardText">
                   <CardHeader>
-                    Title:  <b>{blog.title}</b>
+{/*                     Title:  */}
+                    <b>{blog.title}</b>
                   </CardHeader>
                   <CardBody className="flex-1  overflow-y-auto">
                     <div className="p-4 mb-6 bg-neutral-200 rounded-lg text-bodybg">
