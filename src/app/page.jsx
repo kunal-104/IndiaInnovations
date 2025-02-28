@@ -715,23 +715,23 @@ const Home = () => {
         <div className="flex-1 overflow-x-hidden overflow-y-auto p-4 sm:ml-20">
 
 
-          <div className="w-full h-screen flex flex-col justify-center items-center text-center px-4 relative -mt-20 rounded-lg">
+        <div className="w-full min-h-screen flex flex-col justify-center items-center text-center px-4 relative -mt-16 md:-mt-20 rounded-lg">
   {/* Glowing Text with Hover Effect */}
-  <h1 className="rounded-lg text-6xl font-extrabold bg-gradient-to-r from-orange-400 via-white to-green-400 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(255,165,0,0.8)] mb-6 relative z-10 transition-all duration-500 hover:scale-110 hover:drop-shadow-[0_0_50px_rgba(255,165,0,1)]">
+  <h1 className="rounded-lg text-4xl sm:text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-orange-400 via-white to-green-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(255,165,0,0.8)] mb-4 md:mb-6 relative z-10 transition-all duration-500 hover:scale-105 hover:drop-shadow-[0_0_50px_rgba(255,165,0,1)]">
     Timeline of India's Scientific Achievements
   </h1>
 
   {/* Subtext with a Glow Effect */}
-  <p className="text-2xl font-medium text-gray-100 opacity-90 max-w-3xl relative z-10 transition-all duration-500 hover:scale-105 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.8)]">
+  <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-100 opacity-90 max-w-md sm:max-w-lg md:max-w-3xl relative z-10 transition-all duration-500 hover:scale-105 hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.8)]">
     Explore India's rich scientific heritage from ancient times to the present day.
   </p>
 
   {/* Enhanced Neon Background with Animation */}
-  <div className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-1/2 bg-gradient-to-r from-orange-500 via-white to-green-500 opacity-60 rounded-2xl blur-[80px] shadow-[0_0_80px_rgba(255,165,0,0.8)] transition-all duration-700 animate-pulse hover:scale-110 hover:opacity-70"></div>
+  <div className="absolute top-[50%] sm:top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] sm:w-[85%] md:w-[90%] h-[40%] sm:h-1/2 bg-gradient-to-r from-orange-500 via-white to-green-500 opacity-50 sm:opacity-60 rounded-2xl blur-[60px] sm:blur-[80px] shadow-[0_0_60px_rgba(255,165,0,0.7)] transition-all duration-700 animate-pulse hover:scale-105 sm:hover:scale-110 hover:opacity-70"></div>
 
   {/* Additional Floating Neon Rings for a Futuristic Effect */}
-  <div className="absolute top-[25%] left-1/2 -translate-x-1/2 w-[300px] h-[150px] border-4 border-orange-400 rounded-full blur-lg opacity-70 animate-spin-slow"></div>
-  <div className="absolute top-[65%] left-1/2 -translate-x-1/2 w-[350px] h-[180px] border-4 border-green-400 rounded-full blur-lg opacity-70 animate-spin-reverse-slow"></div>
+  <div className="absolute top-[20%] sm:top-[25%] left-1/2 -translate-x-1/2 w-[200px] sm:w-[250px] md:w-[300px] h-[100px] sm:h-[130px] md:h-[150px] border-2 sm:border-4 border-orange-400 rounded-full blur-lg opacity-60 animate-spin-slow"></div>
+  <div className="absolute top-[60%] sm:top-[65%] left-1/2 -translate-x-1/2 w-[250px] sm:w-[300px] md:w-[350px] h-[120px] sm:h-[150px] md:h-[180px] border-2 sm:border-4 border-green-400 rounded-full blur-lg opacity-60 animate-spin-reverse-slow"></div>
 </div>
 
 
