@@ -287,7 +287,7 @@ const blogsLink = Links.find(link => link.name === 'Innovations');
 }</div>
     }
  
-          {/* <div>
+          <div>
             {(user && (Object.keys(user).length !== 0))  ? 
             
             <Button
@@ -305,7 +305,7 @@ const blogsLink = Links.find(link => link.name === 'Innovations');
             </Button>
             </LoginLink>
           }
-          </div> */}
+          </div>
         </div>
       </div>
       <Modal
