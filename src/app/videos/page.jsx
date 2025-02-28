@@ -370,7 +370,7 @@ const Videos = () => {
               )}{" "}
             </div>
           )}
-          {/* <div>
+          <div>
             {(user && (Object.keys(user).length !== 0))  ? (
               <Button
                 onClick={() => {
@@ -393,7 +393,7 @@ const Videos = () => {
                 </Button>
               </LoginLink>
             )}
-          </div> */}
+          </div>
         </div>
       </div>
       <Modal
