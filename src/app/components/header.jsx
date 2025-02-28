@@ -69,7 +69,7 @@ const Header = () => {
         <div className=" flex items-center justify-between  ">
           {/* <NotificationContainer /> */}
           <div className="flex items-center justify-center">
-            {/* <ChatLikeContainer /> */}
+            <ChatLikeContainer />
           </div>
         </div>
       </div>
