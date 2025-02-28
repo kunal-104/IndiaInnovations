@@ -202,7 +202,8 @@ const articlesLink = Links.find(link => link.name === 'Modern India');
                             className="relative w-full h-72 flex flex-col bg-card text-icon"
                           >
                             <CardHeader>
-                              Title: <b>{article.title}</b>
+{/*                               Title: */}
+                              <b>{article.title}</b>
                             </CardHeader>
                             <CardBody className="flex-1 overflow-y-auto">
                               <div className="p-4 mb-6 bg-neutral-200 rounded-lg text-bodybg">
@@ -268,7 +269,8 @@ const articlesLink = Links.find(link => link.name === 'Modern India');
               <div key={index} className="col-span-1">
                 <Card shadow="none" className="relative w-full h-72 flex flex-col bg-card text-cardText">
                   <CardHeader>
-                    Title:  <b>{article.title}</b>
+{/*                     Title: */}
+                    <b>{article.title}</b>
                   </CardHeader>
                   <CardBody className="flex-1 overflow-y-auto">
                     <div className="p-4 mb-6 bg-neutral-200 rounded-lg text-bodybg">
